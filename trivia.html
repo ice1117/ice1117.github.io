@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LIU's Trivia</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <table>
+      <tr>
+        <td colspan="3" class="header">LIU's Website</td>
+      </tr>
+      <tr>
+        <td colspan="3" class="nav">
+          <a href="index.html">HOME</a> |
+          <a href="portfolio.html">PORTFOLIO</a> |
+          <a href="trivia.html">TRIVIA</a>
+        </td>
+      </tr>
+      <tr class="content">
+        <!-- 左边栏 -->
+        <td class="left-sidebar">
+          <strong>Useful Links</strong>
+          <ul>
+            <li><a href="https://www.latex-project.org" target="_blank">LaTeX Project</a></li>
+            <li><a href="https://www.linkedin.com/in/lanbing" target="_blank">LinkedIn</a></li>
+            <li><a href="https://leetcode.com/lanbing" target="_blank">LeetCode</a></li>
+          </ul>
+        </td>
+
+        <!-- 中间 BMI 区 -->
+        <td class="main-content">
+        <h2 class="section-title">CONTENT</h2>
+          <strong>Trivia: BMI Calculator</strong>
+          <p>Enter your height and weight to calculate your BMI:</p>
+          <label for="height">Height (cm):</label><br>
+          <input type="number" id="height"><br><br>
+          <label for="weight">Weight (kg):</label><br>
+          <input type="number" id="weight"><br><br>
+          <button onclick="calculateBMI()">Calculate</button>
+          <p id="bmi-result"></p>
+        </td>
+
+        <!-- 右边栏 -->
+        <td class="right-sidebar">
+          <strong>Contact Me</strong>
+          <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea><br><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+          </form>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="3" class="footer">
+          Created in July 2025 |
+          <a href="https://github.com/ice1117" target="_blank" class="footer-link">GitHub</a>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>

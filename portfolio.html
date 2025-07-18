@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LIU's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <table>
+      <tr>
+        <td colspan="3" class="header">LIU's Website</td>
+      </tr>
+      <tr>
+        <td colspan="3" class="nav">
+          <a href="index.html">HOME</a> |
+          <a href="portfolio.html">PORTFOLIO</a> |
+          <a href="trivia.html">TRIVIA</a>
+        </td>
+      </tr>
+      <tr class="content">
+        <!-- 左侧栏 -->
+        <td class="left-sidebar">
+          <strong>Useful Links</strong>
+          <ul>
+            <li><a href="https://www.latex-project.org" target="_blank">LaTeX Project</a></li>
+            <li><a href="https://www.linkedin.com/in/lanbing" target="_blank">LinkedIn</a></li>
+            <li><a href="https://leetcode.com/lanbing" target="_blank">LeetCode</a></li>
+          </ul>
+        </td>
+
+        <!-- 中间内容 -->
+        <td class="main-content">
+          <h2 class="section-title">CONTENT</h2>
+          <strong>My Portfolio</strong>
+          <table class="portfolio-table">
+            <tr>
+              <th>No.</th>
+              <th>Name</th>
+              <th>Descriptions</th>
+              <th>Date</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>The Little Prince</td>
+              <td>A poetic tale exploring love, loneliness, and growing up.</td>
+              <td>Jan 2019</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>The Moon and Sixpence</td>
+              <td>A novel inspired by Gauguin, about pursuing art and dreams.</td>
+              <td>May 2022</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>One Hundred Years of Solitude</td>
+              <td>A magical realist story of the Buendía family’s rise and fall.</td>
+              <td>Feb 2024</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>It Takes Two</td>
+              <td>A creative co-op adventure focused on repairing relationships.</td>
+              <td>Mar 2024</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Love and Deepspace</td>
+              <td>A romantic sci-fi game blending narrative and visual impact.</td>
+              <td>Nov 2024</td>
+            </tr>
+          </table>
+        </td>
+
+        <!-- 右侧栏 -->
+        <td class="right-sidebar">
+          <strong>Contact Me</strong>
+          <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea><br><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" class="footer">
+          Created in July 2025 |
+          <a href="https://github.com/ice1117" target="_blank" class="footer-link">GitHub</a>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
