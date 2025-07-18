@@ -210,12 +210,12 @@ input, textarea {
 
 .portfolio-table th:nth-child(3),
 .portfolio-table td:nth-child(3) {
-  width: 60%;
+  width: 55%;
 }
 
 .portfolio-table th:nth-child(4),
 .portfolio-table td:nth-child(4) {
-  width: 5%;
+  width: 10%;
 }
 
 .portfolio-table tr:nth-child(2) {
